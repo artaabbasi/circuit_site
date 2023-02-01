@@ -2,6 +2,7 @@ from django.db import models
 
 class Tag(models.Model):
     name = models.TextField()
+    text = models.TextField()
     ref_link = models.TextField()
 
 
