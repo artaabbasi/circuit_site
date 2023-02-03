@@ -11,3 +11,4 @@ class Item(models.Model):
     description = models.TextField()
     price = models.FloatField()
     tags = models.ManyToManyField(Tag, blank=True)
+    image = models.FileField(null=True, blank=True)
